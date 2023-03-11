@@ -1,12 +1,6 @@
 
-package com.mycompany.blackjack;
-/*
-*author: ashanti morgan
-*author:
-*author:
-*date:03/8/2023
-*description: base of the card class.
-*/
+package blackjack;
+
 public abstract class Card extends Game {
 
     public Card(String name) {
@@ -28,12 +22,14 @@ public abstract class Card extends Game {
     @Override
     public abstract String toString();
 
+    @Override
     public void play() {
         checknumber();
         givecards();
         checkAce();
     }
 
+    @Override
     public void declareWinner() {
         play();
     }
