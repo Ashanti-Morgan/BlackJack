@@ -49,6 +49,27 @@ public abstract class Game {
      * When the game is over, use this method to declare and display a winning player.
      */
     public abstract void declareWinner();
+    
+     //Check if the total value of the card is greater then 21 or not??
+    public boolean checknumber() {
+        
+        return true;
+        
+    }
+    //give two random card to dealer and the player.
+    public void givecards() {
+        
+    }
+    
+     
+    
+    //An Ace will have a value of 11 unless that would give a player or the dealer a score in excess of 21; 
+    //in which case, it has a value of 1. 
+    //The dealer starts the game. Every player gets 2 cards, face up. 
+    //The dealer gets 2 cards, with a Hole Card (1 card face down).
+    public int checkAce() {
+        return 0;
+    }
 
 }//end class
  

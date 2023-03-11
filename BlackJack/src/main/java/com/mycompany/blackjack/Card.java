@@ -7,7 +7,11 @@ package com.mycompany.blackjack;
 *date:03/8/2023
 *description: base of the card class.
 */
-public abstract class Card {
+public abstract class Card extends Game {
+
+    public Card(String name) {
+        super(name);
+    }
     //default modifier for child classes
 
     /**
@@ -17,4 +21,20 @@ public abstract class Card {
      */
     @Override
     public abstract String toString();
+    
+    public enum Value{ACE,ONE,TWO,THREE,FOUR,FIVE,SIX,SEVEN,EIGHT,NINE,TEN,JACK,QUEEN,KING};
+    
+    
+    @Override
+    public abstract String toString();
+
+    public void play() {
+        checknumber();
+        givecards();
+        checkAce();
+    }
+
+    public void declareWinner() {
+        play();
+    }
 }
