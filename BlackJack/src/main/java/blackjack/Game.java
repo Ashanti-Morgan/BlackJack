@@ -1,14 +1,8 @@
 
-package com.mycompany.blackjack;
+package blackjack;
 
 import java.util.ArrayList;
-/*
-*author: ashanti morgan
-*author:
-*author:
-*date:03/8/2023
-*description: class that models the game.
-*/
+
 public abstract class Game {
 
     private final String name;//the title of the game

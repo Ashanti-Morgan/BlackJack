@@ -1,12 +1,5 @@
-/*
-*author: ashanti morgan
-*author:
-*author:
-*date:03/8/2023
-*description: player object class
-*/
 
-package com.mycompany.blackjack;
+package blackjack;
 
  public abstract class Player {
 

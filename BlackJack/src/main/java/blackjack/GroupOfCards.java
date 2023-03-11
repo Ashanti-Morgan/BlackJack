@@ -1,16 +1,8 @@
 
-package com.mycompany.blackjack;
+package blackjack;
 
 import java.util.ArrayList;
 import java.util.Collections;
-
-/*
-*author: ashanti morgan
-*author:
-*author:
-*date:03/8/2023
-*description: represents a grouping of cards for the game.
-*/
 
 public class GroupOfCards {
 
