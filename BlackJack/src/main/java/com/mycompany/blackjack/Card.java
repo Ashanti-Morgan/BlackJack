@@ -28,10 +28,18 @@ public abstract class Card extends Game {
     @Override
     public abstract String toString();
 
+    public void gameCheck (){
+        //this method will check the conditions of the game//
+        //this method will check who has the winning hand (player or dealer//   
+    }
+    
+    
     public void play() {
         checknumber();
         givecards();
         checkAce();
+        //we will add some rules for gameplay in future edits// 
+        //we will add a method to display the rules to the user when they begin the game//
     }
 
     public void declareWinner() {
